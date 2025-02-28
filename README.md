@@ -1,33 +1,32 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Smart Inventory Manager: A Web-Based Inventory Management System with Computer Vision
+This project utilizes Long Short-Term Memory (LSTM) neural networks to predict future sales of different product models based on historical stock data. It takes two JSON files as input: one containing the initial stock (initial_stock.json) and another tracking daily sales (sold_stock.json). The LSTM model analyzes past sales trends to forecast the quantity of each product expected to be sold over the next 90 days. The predictions are visualized using bar charts in a Streamlit web application, providing valuable insights for inventory management and demand forecasting, helping businesses optimize stock levels efficiently.
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+This project focuses on sales prediction using Long Short-Term Memory (LSTM) neural networks to help businesses forecast future demand and optimize inventory management. The system takes two JSON files as input: initial_stock.json, which contains the starting inventory for various product models, and sold_stock.json, which logs daily sales transactions for each model over a specific period. The data is preprocessed to structure it into time-series format, ensuring that missing dates are accounted for and sales data is properly aggregated. The LSTM model is then trained to recognize historical sales patterns and predict the expected sales quantities for the next 90 days. To improve efficiency, the trained models are saved and reloaded for future use instead of being retrained each time. The predictions are displayed using bar charts in a user-friendly Streamlit web application, allowing users to visually interpret the forecasted sales trends for different product categories. This system provides valuable insights for inventory planning, helping businesses make data-driven decisions to prevent overstocking or understocking of products. By leveraging machine learning, the project enhances the accuracy of demand forecasting, ultimately improving operational efficiency and profitability.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
+- Implements a LSTM Model.
 - A framework based application for deployment purpose.
 - High scalability.
 - Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
 * Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
 * Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
 * Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
+
 * Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
+* IDE: Use of Jupyter Notebooks as the Integrated Development Environment for coding, debugging, and version control integration.
 * Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![Architecture Diagram](./architecture-diagram.jpeg)
 
 
 ## Output
@@ -35,10 +34,10 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![Predicted the sales for the product AC](./output-01.png)
 
 #### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![Predicted the sales for the product Fride](./output-02.png)
 
 Detection Accuracy: 96.7%
 Note: These metrics can be customized based on your actual performance evaluations.
@@ -46,13 +45,14 @@ Note: These metrics can be customized based on your actual performance evaluatio
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The project successfully predicts future sales trends for different product models using LSTM-based time series forecasting. The trained models analyze historical sales data and generate predictions for the next 90 days, which are visualized using bar charts in the Streamlit web application. The results show that the LSTM model effectively captures seasonal patterns and demand fluctuations, helping businesses anticipate stock requirements. The prediction accuracy depends on the quality and consistency of past sales data, with better results observed for products with stable sales histories. The inventory optimization insights enable businesses to make informed restocking decisions, preventing both overstocking and stockouts. However, challenges such as data sparsity, missing values, and sudden demand shifts can impact prediction accuracy, requiring further improvements like hyperparameter tuning, additional data preprocessing, or hybrid models. Overall, the project provides a reliable and automated sales forecasting solution, improving decision-making and profitability for businesses managing inventory. 🚀📊
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. S. Singh, R. Kumar, A. Badhoutiya, U. Sharma, A. Alkhayyat and S. K. Shah, "Web-Based Inventory, Stock Monitoring and Control System Powered by Local Encrypted Web Server," 2024 11th International Conference on Computing for Sustainable Global Development (INDIACom), New Delhi, India, 2024, pp. 741-744, doi: 10.23919/INDIACom61295.2024.10498795
+2. T. Balaji, V. Hari, S. Lathifunnisa, P. Ganesh and P. Arupya, "Optimizing Web-based Inventory Management system using QR code Technology," 2024 7th International Conference on Circuit Power and Computing Technologies (ICCPCT), Kollam, India, 2024, pp. 751-756, doi: 10.1109/ICCPCT61902.2024.10673103
+3. J. P. N, S. Prashanth, A. D and M. J, "Design and Evaluation of a Real-Time Stock Inventory Management System," 2023 IEEE 5th International Conference on Cybernetics, Cognition and Machine Learning Applications (ICCCMLA), Hamburg, Germany, 2023, pp. 180-185, doi: 10.1109/ICCCMLA58983.2023.10346665
+4. N. K. Verma, T. Sharma, S. D. Rajurkar and A. Salour, "Object identification for inventory management using convolutional neural network," 2016 IEEE Applied Imagery Pattern Recognition Workshop (AIPR), Washington, DC, USA, 2016, pp. 1-6, doi: 10.1109/AIPR.2016.8010578
+
 
 
 
