@@ -26,18 +26,18 @@ This project focuses on sales prediction using Long Short-Term Memory (LSTM) neu
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Architecture Diagram](./architecture-diagram.jpeg)
-
+![architecture-diagram](https://github.com/user-attachments/assets/6197f1e3-21b9-4412-9ca7-e04e7e32fd4b)
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
 
-![Predicted the sales for the product AC](./output-01.png)
+![output-01](https://github.com/user-attachments/assets/552a189f-4b93-4f4e-9fd5-6c6e13f6fd77)
 
 #### Output2 - Name of the output
-![Predicted the sales for the product Fride](./output-02.png)
+
+![output-02](https://github.com/user-attachments/assets/1b5742bb-46d1-4974-b0da-82ff6139c27d)
 
 Detection Accuracy: 96.7%
 Note: These metrics can be customized based on your actual performance evaluations.
